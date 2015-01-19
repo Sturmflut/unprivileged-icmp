@@ -51,7 +51,7 @@ int main(int argc, char** argv)
     {
         printf("sendto() errno: %i\n", errno);
 
-	return EXIT_SUCCESS;
+	return EXIT_FAILURE;
     }
     
     printf("ICMP ECHO packet sent successfully\n");
